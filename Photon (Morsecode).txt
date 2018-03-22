@@ -1,0 +1,112 @@
+//Morse code for blinking 
+int LED = D7;
+
+
+void setup() {
+    pinMode(LED, OUTPUT);
+}
+
+void loop() {
+    
+    // Letter L
+
+    digitalWrite(D7, LOW);
+    delay(700);
+    digitalWrite(D7, HIGH);
+    delay(1300);
+    digitalWrite(D7, LOW);
+    delay(700);
+    digitalWrite(D7, LOW);
+    delay(700);
+    
+    //letter E
+    
+    digitalWrite(D7, LOW);
+    delay(700);
+    
+    //letter E
+    
+    digitalWrite(D7, LOW);
+    delay(700);
+    
+    //letter L
+    
+    digitalWrite(D7, LOW);
+    delay(700);
+    digitalWrite(D7, HIGH);
+    delay(1300);
+    digitalWrite(D7, LOW);
+    delay(700);
+    digitalWrite(D7, LOW);
+    delay(700);
+    
+    //letter A
+    
+    digitalWrite(D7, LOW);
+    delay(700);
+    digitalWrite(D7, HIGH);
+    delay(1300);
+    
+    //letter k
+    
+    digitalWrite(D7, HIGH);
+    delay(1300);
+    digitalWrite(D7, LOW);
+    delay(700);
+    digitalWrite(D7, HIGH);
+    delay(1300);
+    
+    //letter A
+    
+    digitalWrite(D7, LOW);
+    delay(700);
+    digitalWrite(D7, HIGH);
+    delay(1300);
+
+
+    //Letter I
+    
+    digitalWrite(D7, LOW);
+    delay(700);
+    digitalWrite(D7, LOW);
+    delay(700);
+    
+    //Letter N
+    
+    digitalWrite(D7, HIGH);
+    delay(1300);
+    digitalWrite(D7, LOW);
+    delay(700);
+    
+    //Letter D
+    
+    digitalWrite(D7, HIGH);
+    delay(1300);
+    digitalWrite(D7, LOW);
+    delay(700);
+    digitalWrite(D7, LOW);
+    delay(700);
+    
+    //Letter I
+    
+    digitalWrite(D7, LOW);
+    delay(700);
+    digitalWrite(D7, LOW);
+    delay(700);
+    
+    //Letter R
+    
+    digitalWrite(D7, LOW);
+    delay(700);
+    digitalWrite(D7, HIGH);
+    delay(1300);
+    digitalWrite(D7, LOW);
+    delay(700);
+    
+    //Letter A
+    
+    digitalWrite(D7, LOW);
+    delay(700);
+    digitalWrite(D7, HIGH);
+    delay(1300);
+}
